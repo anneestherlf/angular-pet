@@ -1,0 +1,29 @@
+header{ 
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    gap: 10px;
+    border-bottom: 2px;
+    border-bottom-style:inherit;
+    border-bottom-color: rgb(116, 160, 226);
+    background-color: rgba(172, 172, 216, 0.575);
+    margin-bottom: 30px;
+}
+header h1{
+    padding-top: 30px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+header img{
+    padding-top: 22px;
+    height: 70px;
+    margin-left: 25px;
+}
+
+table{
+    display: flex;
+    gap: 1px;
+}
+
+
