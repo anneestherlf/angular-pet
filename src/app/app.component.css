@@ -1,0 +1,64 @@
+header{ 
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    gap: 10px;
+    border-bottom: 2px;
+    border-bottom-style:inherit;
+    border-bottom-color: rgb(116, 160, 226);
+    background-color: rgba(172, 172, 216, 0.575);
+    margin-bottom: 30px;
+}
+header h1{
+    padding-top: 30px;
+    font-size: 20px;
+
+}
+header img{
+    padding-top: 22px;
+    height: 70px;
+    margin-left: 25px;
+}
+
+table{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer{
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    gap: 10px;
+    border-top: 2px;
+    border-top-style:inherit;
+    border-top-color: rgb(116, 160, 226);
+    background-color: rgba(172, 172, 216, 0.575);
+    margin-top: 70px;
+
+}
+
+div{
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.button{
+    width:180px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    border-color: rgb(116, 160, 226);;
+    background-color: rgba(200, 200, 230, 0.575);
+}
+
+.button:hover{
+    background-color: rgba(176, 176, 204, 0.575);
+}
+
